@@ -64,10 +64,10 @@ body {
   z-index: 1;
 }
 .intro .intro_text h1 {
-	font-family: 'DM Serif Display', serif;
-	font-size: 40px;
-	padding-bottom: 20px;
-	line-height: 1;
+  font-family: "DM Serif Display", serif;
+  font-size: 40px;
+  padding-bottom: 20px;
+  line-height: 1;
 }
 .intro .intro_text .button {
   color: #fff;
@@ -102,16 +102,16 @@ body {
   line-height: 1.5;
 }
 #services hr {
-	height: 0.2px;
-    width: 40%;
-    background: var(--grayish-violet);
-	margin: auto;
+  height: 0.2px;
+  width: 40%;
+  background: var(--grayish-violet);
+  margin: auto;
 }
 #services .service_heading {
   font-size: 3rem;
   padding-top: 10px;
   padding-bottom: 20px;
-  font-family: 'DM Serif Display', serif;
+  font-family: "DM Serif Display", serif;
 }
 #service ul li p {
   padding-bottom: 20px;
@@ -142,7 +142,7 @@ body {
   padding-bottom: 50px;
   line-height: 40px;
   letter-spacing: 2px;
-  font-family: 'DM Serif Display', serif;
+  font-family: "DM Serif Display", serif;
 }
 .work_content a {
   padding: 15px 25px;
@@ -164,8 +164,8 @@ footer .container {
   text-align: center;
 }
 footer .social-grid {
-	position: relative;
-    z-index: 1;
+  position: relative;
+  z-index: 1;
 }
 footer .container .social {
   display: flex;
@@ -188,6 +188,15 @@ footer .contact-div h4 {
 footer .contact-div p {
   line-height: 2.5;
   font-weight: bold;
+}
+.attribution {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 17px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
 
 /* small tablet styles */
@@ -254,7 +263,7 @@ footer .contact-div p {
   .intro-pattern-right {
     top: -1px;
     right: -70px;
-	z-index: 1;
+    z-index: 1;
   }
   .intro-pattern-left {
     left: 0;
@@ -317,7 +326,7 @@ footer .contact-div p {
     right: 110px;
   }
   .work_content {
-	padding: 85px 80px;
+    padding: 85px 80px;
   }
   .content {
     display: flex;
@@ -353,7 +362,7 @@ footer .contact-div p {
   footer .social-grid {
     display: flex;
     justify-content: space-between;
-	align-items: center;
+    align-items: center;
     position: relative;
     z-index: 1;
   }
